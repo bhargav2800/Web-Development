@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+#logo{
+    display: flex;
+    /* flex-direction: column; */
+    color: white;
+    align-items: center;
+}
+
+#logo:hover{
+    color: rgb(177, 240, 164);
+}
+
+#logo img{
+    height: 40px;
+    filter: invert(1);
+}
+
+#logo img:hover{
+    filter: invert(0.7);
+}
+
+#navbar{
+    background-color: black;
+    padding: 9px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 7px 25px;
+    color : white;
+}
+
+#navbar li a:hover{
+    background-color: rgb(250, 185, 185);
+    color : black;
+}
+
+.container{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(215, 253, 255);
+}
+
+.container div{
+    font-weight: bolder;
+    font-size: 25px;
+    margin: 20px 0px;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+.myinput{
+    margin: 10px;
+    border : rgb(190, 187, 187) solid;
+    border-radius: 5px;
+}
+
+.btn{
+    width: 22%;
+    margin: 5px auto;
+    border: 2px rgb(230, 164, 164) solid;
+    border-radius: 7px;
+    color:white;
+    background-color: black;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+    height:40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

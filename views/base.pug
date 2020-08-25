@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    title Bhargav Dance Academy
+    block scripts
+        script(src='/static/index.js')
+    block style
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="http://clipart-library.com/images_k/silhouette-dancers/silhouette-dancers-9.png", alt="")
+                | BDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class info]
+            li #[a(href="/contact") Contact Us]
+    block content
+
+    footer#footer
+      | Copyright © 2020 BhargavDanceAcademy.com | All rights reserved
